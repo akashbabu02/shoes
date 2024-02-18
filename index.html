@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <!---navbar 1-->
+    <header>
+        <nav class=" navbar navbar-expand-sm navbar-collapse  navbar1">
+            <div class="container">
+                <div class="row w-100">
+                    <div class="col-6">
+
+                        <span class="navbar-brand "> <img src="Bard_Generated_Image__7_-removebg-preview.png" width="95"
+                                height="95"><span class="navbar-brand-text">Run Shoes</span></span>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-0 ">
+                <img src="cart.png" class="cart">
+                <span class="cartcount">0</span>
+            </div>
+        </nav>
+    </header>
+    <!---navbar 2-->
+    <nav class="navbar navbar-expand-sm " , id="navbar2">
+        <button class="navbar toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class=" collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto me-5">
+                <li><a class="nav-item me-5 na-custom  nav-link-custom" href="#"> Home </a></li>
+                <li><a class="nav-item me-5 nav-link-custom" href="#"> Features </a></li>
+                <li><a class="nav-item me-5 nav-link-custom" href="#"> Products </a></li>
+                <li><a class="nav-item me-5 nav-link-custom" href="#"> About us </a></li>
+
+        </div>
+        <div class="login">
+            <button>Login</button>
+        </div>
+        </ul>
+
+    </nav>
+
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"        ></button>
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            
+        </div>
+
+         <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="shoes-4672332_1280 (1) (1).jpg" class="d-block w-100">
+            <div class="carousel-caption">
+                <p>"Every run is a story, and your shoes are the pen. Write your journey in style with our exclusive run shoe collection."</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="ballet-4673922_1280.jpg" class="d-block w-100" >
+            <div class="carousel-caption d-none d-md-block  p-4">
+             <p>"Run with grace, run with strength. Discover the perfect balance of performance and style in our run shoe selection."</p>
+            </div>
+        </div>
+               </div>
+        </div>
+
+         </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev" >
+            <span class="carousel-control-prev-icon" aria-hidden="true" ></span>
+            <span class="visually-hidden">Previous</span>
+        </button> 
+        <button class="carousel-control-next " type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>    
+
+    </div>
+    <div class="CardContainer">
+        <div class="card">
+            <img src="woman-3857758_1280.jpg" >
+            <div class="intro">
+                <h1><span>Your Stride</span> </h1>
+                <p>
+                   yourself in unparalleled comfort with our shoes' luxurious responsive cushioning. Every step is a lavish experience, redefining your journey.
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="fashion-1853294_1280.jpg" >
+            <div class="intro">
+                <h1>A Breath of Elegance</h1>
+                <p>
+                   <span>Embrace the art of running with our shoes' breathable mesh symphony. Unleash elegance in motion as you revel in a refreshing and sophisticated run.</span>
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="feet-972854_1280.jpg" >
+            <div class="intro">
+                <h1>Your Signature Fit</h1>
+                <p>
+                Sculpt your perfect fit with LaceCraft™, our proprietary customizable lacing system. Every run is a masterpiece, tailored to your unique style.
+                </p>
+            </div>
+        </div>
+
+    </div>
+   <!-- <div class="card-container">
+        <div class="card">
+            <img src="fashion-1853294_1280.jpg" class="card-img-top" alt="Card Image">
+            <div class="card-body">
+                <h5 class="card-title">Card Title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+    </div>-->
+
+    <div class="cartTab">
+        <h1>Shopping Cart</h1>
+        <div class="cartlist">
+            <div class="item">
+                <img src="apples-805124_640.jpg" alt="">
+
+                <div class="name">
+                    Name
+                </div>
+                <div class="price">
+                    Rs:100
+                </div>
+
+                <div class="qunatity">
+                    <span class="minus">
+                        << /span>
+                            <span>1</span>
+                            <span class="plus">> </span>
+                </div>
+            </div>
+
+
+
+        </div>
+        <div class="btn">
+            <button class="close">Close</button>
+            <button class="out">CheckOut</button>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+   
+
+
+
+</body>
+
+</html>
